@@ -1,7 +1,7 @@
 require "pry"
 
 class Hash
-  def keys_of(animals, *arguments)
+  def keys_of(*arguments, animals)
     animals.each do |i|
         puts i 
     end    
