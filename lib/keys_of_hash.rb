@@ -2,7 +2,9 @@ require "pry"
 
 class Hash
   def keys_of(animals, *arguments)
-    
+    animals.each do |i|
+        puts i 
+    end    
   end  
 end
 
